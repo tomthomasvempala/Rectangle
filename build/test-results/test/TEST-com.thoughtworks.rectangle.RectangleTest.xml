@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.rectangle.RectangleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-04T05:45:07" hostname="gurushifu-gurushifugitp-mxvcyrivx91" time="0.023">
+<testsuite name="com.thoughtworks.rectangle.RectangleTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-01-04T06:07:52" hostname="gurushifu-gurushifugitp-mxvcyrivx91" time="0.024">
   <properties/>
-  <testcase name="shouldHaveArea10for1x10()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.016"/>
-  <testcase name="shouldHaveArea16for4x4()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.002"/>
-  <testcase name="shouldHaveArea20for4x5()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
+  <testcase name="shouldReturnAreaAs16WhenLengthIs4AndBreadthIs4()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.017"/>
+  <testcase name="shouldReturnAreaAs10WhenLengthIs1AndBreadthIs10()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.002"/>
+  <testcase name="shouldReturnAreaAs20WhenLengthIs4AndBreadthIs5()" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

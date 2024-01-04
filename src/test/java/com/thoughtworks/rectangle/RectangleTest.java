@@ -6,19 +6,19 @@ import org.junit.jupiter.api.Test;
 
 class RectangleTest{
     @Test
-    void shouldHaveArea16for4x4(){
+    void shouldReturnAreaAs16WhenLengthIs4AndBreadthIs4(){
         Rectangle rectangle = new Rectangle(4, 4);
         assertEquals(16,rectangle.area());
     }
     
     @Test
-    void shouldHaveArea20for4x5(){
+    void shouldReturnAreaAs20WhenLengthIs4AndBreadthIs5(){
         Rectangle rectangle = new Rectangle(4, 5);
         assertEquals(20,rectangle.area());
     }
 
     @Test
-    void shouldHaveArea10for1x10(){
+    void shouldReturnAreaAs10WhenLengthIs1AndBreadthIs10(){
         Rectangle rectangle = new Rectangle(1, 10);
         assertEquals(10, rectangle.area());
     }
